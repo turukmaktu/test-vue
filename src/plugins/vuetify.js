@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Vuetify, { VSnackbar, VBtn, VIcon } from 'vuetify/lib';
 import 'vuetify/src/styles/main.sass';
+import '../assets/addon.scss';
 
 
 const options = {

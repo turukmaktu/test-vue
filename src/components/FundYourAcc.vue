@@ -111,12 +111,12 @@
                                 </v-tab-item>
                                 <v-tab-item>
                                     <v-row justify="center" class="mx-2">
-                                        <v-col class="d-flex" md="6" sm="12">
-                                            <v-row>
-                                                <v-col md="12">
+                                        <v-col class="d-flex disable-margin disable-padding" md="6" sm="12">
+                                            <v-row class="disable-margin disable-padding">
+                                                <v-col md="12" class="disable-margin disable-padding">
                                                     From
                                                 </v-col>
-                                                <v-col md="12">
+                                                <v-col md="12" class="disable-margin disable-padding">
                                                     <v-select
                                                     append-icon="mdi-chevron-up"
                                                     filled
@@ -128,12 +128,12 @@
                                         </v-col>
                                     </v-row>
                                     <v-row justify="center" class="mx-2">
-                                        <v-col class="d-flex" md="6" sm="12">
-                                            <v-row>
-                                                <v-col md="12">
+                                        <v-col class="d-flex disable-margin disable-padding" md="6" sm="12">
+                                            <v-row class="disable-margin disable-padding">
+                                                <v-col md="12" class="disable-margin disable-padding">
                                                     To
                                                 </v-col>
-                                                <v-col md="12">
+                                                <v-col md="12" class="disable-margin disable-padding">
                                                     <v-select
                                                     append-icon="mdi-chevron-up"
                                                     filled
@@ -145,7 +145,7 @@
                                         </v-col>
                                     </v-row>
                                     <v-row justify="center" class="mx-2">
-                                        <v-col class="d-flex" md="6" sm="12">
+                                        <v-col class="d-flex disable-margin disable-padding" md="6" sm="12">
                                             <v-text-field   
                                                 label="Filled"
                                                 filled
@@ -153,11 +153,11 @@
                                         </v-col>
                                     </v-row>
                                     <v-row justify="center" class="mx-2">
-                                        <v-col class="d-flex" md="6" sm="12">
+                                        <v-col class="d-flex disable-margin disable-padding" md="6" sm="12">
                                             <v-card width="100%">
                                                 <v-row class="px-2">
                                                     <v-col sm=6>
-                                                        <v-card color="primary">Balance: <span>0.2342342</span></v-card>
+                                                        <v-card class="px-1 color-background-balance color-text-balance">Balance: <span class>0.2342342</span></v-card>
                                                     </v-col>
                                                 </v-row>
                                                 <v-row class="px-2" justify="left">
